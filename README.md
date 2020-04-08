@@ -4,7 +4,7 @@ Using style transfer and Deep learning to Stylize a person or background
 ### Summary:
 Image/video is supplied to the model it extracts out all persons and then apply a style to the image. The style can be anything in the form of image. The machine will learn the style and will apply to original image.
 
-### Outputs:
+### Result:
 Output is in the form of JSON file containing 3 images
 
 <table>
@@ -36,14 +36,14 @@ Output is in the form of JSON file containing 3 images
 7. flask_ngrok
 8. Requests
 
-### Pre-Trained model used:
+### Pre-Trained models used:
 1. Style transfer model
 https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2 
 
 2. deeplab version 3
 http://download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz
 
-##### Citation:
+#### Citation:
 @inproceedings{deeplabv3plus2018,
   title={Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation},
   author={Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam},

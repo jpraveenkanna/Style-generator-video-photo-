@@ -8,8 +8,7 @@ Image/video is supplied to the model it extracts out all persons and then apply 
 Output is in the form of JSON file containing 3 images
 
 <table>
-  <b>
-  <tr align="center">
+    <tr align="center">
     <td align="center"><b>Input Image ----></b> </td>
     <td align="center"><img src="/Outputs/3.png" height=350 width=290></td>
     <td></td>

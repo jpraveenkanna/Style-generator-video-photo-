@@ -16,7 +16,7 @@ Output is in the form of JSON file containing 3 images
   <tr>
     <td align="center"><b>1) Style applied to background</b></td>
      <td align="center"><b>2) Style applied to persons</b> </td>
-     <td align="center"><b>3) Style applied to person normalized with background</b></td>
+     <td align="center"><b>3) Style normalized to person</b></td>
   </tr>
   <tr>
     <td align="center"><img src="/Outputs/3_style1_1.png" height=350 width=290></td>

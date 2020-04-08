@@ -6,10 +6,27 @@ Image/video is supplied to the model it extracts out all persons and then apply 
 
 ### Outputs:
 Output is in the form of JSON file containing 3 images
-1. Stlye applied only to background
-2. Style applied to persons alone
-3. Style applied to person normalized with background
 
+<table>
+  <b>
+  <tr align="center">
+    <td align="center"><b>Input Image ----></b> </td>
+    <td align="center"><img src="/Outputs/3.png" height=350 width=290></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><b>1) Style applied to background</b></td>
+     <td align="center"><b>2) Style applied to persons</b> </td>
+     <td align="center"><b>3) Style applied to person normalized with background</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Outputs/3_style1_1.png" height=350 width=290></td>
+    <td align="center"><img src="/Outputs/3_style1_2.png" height=350 width=290></td>
+    <td align="center"><img src="/Outputs/3_style1_3.png" height=350 width=290></td>
+    </tr>
+ </table>
+
+ 
 ### Requirements:
 1. Opencv
 2. Numpy

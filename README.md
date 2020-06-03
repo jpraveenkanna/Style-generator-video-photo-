@@ -1,11 +1,10 @@
 # Style generator [Video/Image]
-Using style transfer and Deep learning to Stylize a person or background
+Using style transfer and object segmentation model to Stylize the image
 
 ### Summary:
-Image/video is supplied to the model it extracts out all persons and then apply a style to the image. The style can be anything in the form of image. The machine will learn the style and will apply to original image.
+Stylized image is generated using a reference image. The segementation model seperates humans from the background. Then the style is applied to either background or the person as per choice.
 
 ### Result:
-Output is in the form of JSON file containing 3 images
 
 <table>
     <tr align="center">

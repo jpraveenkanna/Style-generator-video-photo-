@@ -1,5 +1,5 @@
 # Style generator [Video/Image]
-Using style transfer and object segmentation model to Stylize the image
+The application segment person from the image and mask person or background with the reference style image.
 
 ### Summary:
 Stylized image is generated using a reference image. The segementation model seperates humans from the background. Then the style is applied to either background or the person as per choice.
